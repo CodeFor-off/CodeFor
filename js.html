@@ -1,0 +1,885 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> JavaScript - CodeFor </title>
+    <link rel="website icon" type="png" href="./img/Fauget/1.png">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+    <header>
+
+        <div class="content">
+            <div class="content-logo-head">
+
+                <div class="header-logo">
+
+                    <a href="/">
+                        <img src="./img/logo.svg" alt="">
+                    </a>
+
+                </div>
+
+
+                <div class="header-meny">
+
+
+                    <nav class="menu">
+                        <ul>
+                            <li><a href="/">Главная</a></li> <!-- Основной пункт "Меню1" -->
+                            <li><a href="#">Курсы</a> <!-- Пункт "Меню2" -->
+                                <!-- Подменю "Меню2" -->
+                                <ul class="submenu">
+                                    <a href="#" class="ZP">
+                                        <img src="./img/ИконкиЯП/html.png" alt="" class="html">
+                                        <p>HTML</p>
+
+                                    </a>
+                                    <a href="#" class="ZP">
+                                        <img src="./img/ИконкиЯП/css.png" alt="">
+                                        <p>CSS</p>
+
+                                    </a>
+
+                                    <a href="#" class="ZP">
+                                        <img src="./img/ИконкиЯП/js.png" alt="">
+                                        <p>JavaScript</p>
+
+
+                                    </a>
+                                    <a href="#" class="ZP">
+                                        <img src="./img/ИконкиЯП/php.png" alt="">
+                                        <p>PHP</p>
+
+
+                                    </a>
+                                    <a href="#" class="ZP">
+                                        <img src="./img/ИконкиЯП/c++.png" alt="">
+                                        <p>C++</p>
+
+
+                                    </a>
+                                    <a href="#" class="ZP">
+                                        <img src="./img/ИконкиЯП/питон.png" alt="">
+                                        <p>Python</p>
+
+
+                                    </a>
+                                    <a href="#" class="ZP">
+                                        <img src="./img/ИконкиЯП/Java.png" alt="">
+
+                                        <p>Java</p>
+
+                                    </a>
+
+                                    <a href="#" class="ZP">
+                                        <img src="./img/ИконкиЯП/ruby.svg" alt="">
+
+                                        <p>Ruby</p>
+
+                                    </a>
+
+
+                                </ul>
+
+                            </li>
+
+                            <li><a href="#">О CodeFor</a>
+
+                                <ul class="submenu">
+                                    <a href="#" class="ZP">
+
+                                        <p>О платформе</p>
+
+                                    </a>
+                                    <a href="#" class="ZP">
+
+                                        <p>Цель проекта</p>
+
+                                    </a>
+
+                                    <a href="#" class="ZP">
+
+                                        <p>Разработчики</p>
+
+
+                                    </a>
+                                    <a href="#" class="ZP">
+
+                                        <p> История CodeFor</p>
+
+
+                                    </a>
+                                    <a href="#" class="ZP">
+
+                                        <p>Следующие обновления</p>
+
+
+                                    </a>
+                                    <a href="#" class="ZP">
+
+                                        <p>Новости</p>
+
+
+                                    </a>
+
+
+                                </ul>
+                            </li>
+
+                            <li>
+                                <a href="https://code.visualstudio.com/download" target="_blank"> Скачать Visual
+                                    Studio</a>
+                            </li>
+
+                        </ul>
+                    </nav>
+
+
+                    <div class="mobil-menu-container">
+                        <div class="mobil-menu-icon" onclick="toggleMenu()">
+                            <div>
+                                <img src="./img/menu.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+
+                    <ul class="mobil-menu" id="mobilMenu">
+
+                        <span class="close-icon" onclick="toggleMenu()">
+                            <img src="./img/close (1).png" alt="">
+                        </span>
+                        <div class="mobil-menu-content">
+                            <img src="./img/logo.svg" alt="">
+                            <div class="mobil-menu-content-line"></div>
+                            <div class="accordion">
+
+                                <div class="accordion-item">
+                                    <div class="accordion-header">Курсы
+                                        <img src="./img/arrow-down-sign-to-navigate.png" alt="">
+                                    </div>
+                                    <div class="accordion-content">
+                                        <a href="#">
+                                            <img src="./img/ИконкиЯП/html.png" alt="">
+                                            <p>HTML</p>
+                                        </a>
+
+                                        <a href="#">
+                                            <img src="./img/ИконкиЯП/css.png" alt="">
+                                            <p>CSS</p>
+                                        </a>
+
+                                        <a href="#">
+                                            <img src="./img/ИконкиЯП/js.png" alt="">
+                                            <p>JavaScript</p>
+                                        </a>
+
+
+                                        <a href="#">
+                                            <img src="./img/ИконкиЯП/php.png" alt="">
+                                            <p>PHP</p>
+                                        </a>
+
+                                        <a href="#">
+                                            <img src="./img/ИконкиЯП/c++.png" alt="">
+                                            <p>C++</p>
+                                        </a>
+
+                                        <a href="#">
+                                            <img src="./img/ИконкиЯП/питон.png" alt="">
+                                            <p>Python</p>
+                                        </a>
+
+                                        <a href="#">
+                                            <img src="./img/ИконкиЯП/Java.png" alt="">
+                                            <p>Java</p>
+                                        </a>
+
+                                        <a href="#">
+                                            <img src="./img/ИконкиЯП/ruby.svg" alt="">
+                                            <p>Ruby</p>
+                                        </a>
+
+
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <div class="accordion-header">O CodeFor
+                                        <img src="./img/arrow-down-sign-to-navigate.png" alt="">
+                                    </div>
+                                    <div class="accordion-content">
+                                        <a href="#">
+
+                                            <p>О платформе</p>
+                                        </a>
+                                        <a href="#">
+
+                                            <p>Цель проекта</p>
+                                        </a>
+                                        <a href="#">
+
+                                            <p>Разработчики</p>
+                                        </a>
+                                        <a href="#">
+
+                                            <p>История CodeFor</p>
+                                        </a>
+                                        <a href="#">
+
+                                            <p>Следующие обновления</p>
+                                        </a>
+                                        <a href="#">
+
+                                            <p>Новости</p>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </ul>
+
+
+
+                </div>
+                <div class="header-regestration">
+
+                    <a href="./vhod.html">Вход</a>
+
+                    <a href="./regestration.html">Регистрация</a>
+
+                </div>
+
+
+
+
+            </div>
+        </div>
+
+    </header>
+
+    <main>
+
+        <div class="content">
+            <div class="glav-ramka">
+                <div class="glav-ramka-left">
+
+                    <p>Бесплатные курсы программирования</p>
+                    <h1>Курс JavaScript: обучение JS для начинающих бесплатно</h1>
+                    <p>Изучение программирования — интересный и захватывающий процесс. Синтаксис языка — самая простая и
+                        короткая часть пути, но без неё невозможно начать. Этот бесплатный онлайн-курс по JavaScript
+                        познакомит с базовыми понятиями языка. Вы выучите основы и напишете свои первые программы на JS
+                    </p>
+                    <div class="header-her">
+                        <div>
+                            <img src="./img/часы.png" alt="">
+                            <p>18 часов</p>
+                        </div>
+                        <div>
+                            <img src="./img/люди.png" alt="">
+                            <p>10309 студентов</p>
+                        </div>
+
+                    </div>
+                    <a href="./kyrsi.html" class="bottome">Начать обучение</a>
+
+
+                </div>
+                <div class="glav-ramka-reaght hader-kurs">
+                    <div>
+                        <img src="./img/ИконкиЯП/js.png" alt="">
+                    </div>
+                </div>
+            </div>
+
+
+
+
+            <div class="napoln-kurs">
+
+                <h2>Основы JavaScript</h2>
+
+                <div class="napoln-kurs-hui">
+                    <div>
+                        <a href="#">1. Привет, Мир!</a>
+                        <a href="#">2. Комментарии</a>
+                        <a href="#">3. Инструкции (Statements)</a>
+                        <a href="#">5. Синтаксические ошибки</a>
+
+
+
+                    </div>
+                    <div>
+                        <p>JavaScript является одним из наиболее популярных языков программирования в мире, используемых
+                            для создания интерактивных веб-страниц, мобильных приложений и в серверной разработке. Мы
+                            начнем изучение JS с нуля, с самых основ. Первый модуль служит отправной точкой для
+                            написания осмысленного кода. Мы рассмотрим основы написания кода на JS, включая понятие
+                            комментариев и их важность. На примере проверки ваших решений мы также рассмотрим, что такое
+                            тестирование и как анализировать результаты тестов.</p>
+                    </div>
+                </div>
+
+
+            </div>
+
+            <div class="napoln-kurs">
+
+                <h2>Арифметика</h2>
+
+                <div class="napoln-kurs-hui">
+                    <div>
+                        <a href="#"> 7. Арифметические операции</a>
+                        <a href="#">8. Операторы</a>
+                        <a href="#">9.Коммутативная операция</a>
+                        <a href="#">10. Композиция операций</a>
+                        <a href="#">11. Приоритет операций</a>
+                        <a href="#">12. Числа с плавающей точкой</a>
+                        <a href="#">13. Бесконечность (Infinity)</a>
+                        <a href="#">13. NaN </a>
+                        <a href="#">14. Линтер</a>
+
+
+                    </div>
+                    <div>
+                        <p>Современные программы служат различным целям: обслуживанию бизнеса, помощи в повседневной
+                            жизни и развлечениях. Однако в их основе всегда лежат вычисления. Одной из самых базовых и
+                            простых тем в программировании является арифметика. В этом модуле мы переведем
+                            арифметические действия на язык программирования и обсудим приоритет операций. Мы также
+                            рассмотрим понятие линтера и объясним, почему он может выдавать предупреждения или ошибки.
+                        </p>
+                    </div>
+                </div>
+
+
+            </div>
+
+            <div class="napoln-kurs">
+
+                <h2>Строки</h2>
+
+                <div class="napoln-kurs-hui">
+                    <div>
+                        <a href="#">15. Кавычки</a>
+                        <a href="#">16. Экранирующие последовательности</a>
+                        <a href="#">17. Конкатенация</a>
+                        <a href="#">18. Кодировка</a>
+
+                    </div>
+                    <div>
+                        <p>Термин "текст" в программировании обозначается как "строки", и это понятие может быть
+                            сложнее, чем кажется. Как вывести фразу, содержащую как одинарные, так и двойные кавычки?
+                            Как правильно обрабатывать текст, учитывая, что компьютер не понимает символов? В данном
+                            модуле рассматриваются различные аспекты работы с текстом, включая использование кавычек,
+                            экранирование символов и кодировку.</p>
+                    </div>
+                </div>
+
+
+            </div>
+
+            <div class="napoln-kurs">
+
+                <h2>Типы данных JavaScript</h2>
+
+                <div class="napoln-kurs-hui">
+                    <div>
+                        <a href="#">19. Типы данных </a>
+                        <a href="#"> 20. undefined </a>
+                        <a href="#">21. Неизменяемость примитивных типов </a>
+                        <a href="#">22. Слабая типизация </a>
+
+                    </div>
+                    <div>
+                        <p>JavaScript является языком с динамической типизацией и неизменяемыми примитивными типами
+                            данных. Что произойдет, если мы попытаемся выполнить операцию умножения числа на строку? Как
+                            JavaScript понимает, какой тип данных перед ним? И каковы действия JavaScript при
+                            обнаружении несоответствия типов? Эти вопросы рассматриваются в текущем модуле.</p>
+                    </div>
+                </div>
+
+
+            </div>
+
+            <div class="napoln-kurs">
+
+                <h2>Переменные в языке JavaScript</h2>
+
+                <div class="napoln-kurs-hui">
+                    <div>
+
+
+                        <a href="#">23. Что такое переменная</a>
+                        <a href="#"> 24. Изменение переменной</a>
+                        <a href="#"> 25. Выбор имени переменной</a>
+
+                        <a href="#"> 26. Ошибки при работе с переменными</a>
+
+                        <a href="#"> 27. Выражения в определениях</a>
+
+                        <a href="#">28. Переменные и конкатенация</a>
+
+                        <a href="#"> 29. Стили именования</a>
+
+                        <a href="#">30. Магические числа</a>
+
+                        <a href="#"> 31. Константы</a>
+                        <a href="#">32. Интерполяция</a>
+
+
+                        <a href="#">33. Извлечение символов из строки</a>
+
+
+
+                    </div>
+                    <div>
+                        <p>Информацию можно сохранять в специальных "хранилищах" — переменных. Это позволяет повторно
+                            использовать уже имеющиеся данные и избежать их дублирования в различных частях кода. В
+                            данном модуле мы рассмотрим, как изменять переменные и давать им понятные имена, чтобы код
+                            был понятен для любого разработчика. Вы поймете, что выбор подходящего имени переменной
+                            может быть непростым заданием! Мы также расскажем, как использовать переменные для упрощения
+                            сложных вычислений.</p>
+                    </div>
+                </div>
+
+
+            </div>
+
+            <div class="napoln-kurs">
+
+                <h2>Вызов функций</h2>
+
+                <div class="napoln-kurs-hui">
+                    <div>
+                        <a href="#">34. Функции и их вызов</a>
+                        <a href="#">35. Математические функции JavaScript</a>
+                        <a href="#">36. Сигнатура функции</a>
+                        <a href="#"> 37. Параметры по умолчанию</a>
+                        <a href="#"> 38. Вызов функции — выражение</a>
+                        <a href="#">39. Функции с переменным числом параметров</a>
+                        <a href="#"> 40. Детерминированность </a>
+                        <a href="#"> 41. Стандартная библиотека</a>
+
+                    </div>
+                    <div>
+                        <p>Для выполнения любой произвольной операции в программировании используется понятие "функция".
+                            Функции — это строительные блоки, из которых программисты составляют системы. В этом модуле
+                            мы научимся использовать уже созданные функции. Рассмотрим сигнатуру функции в документации
+                            и разберемся, как ее применять. Познакомимся со стандартными библиотеками, где хранятся
+                            тысячи функций. Невозможно выучить все функции, но каждый программист должен знать, где
+                            искать документацию по ним.</p>
+                    </div>
+                </div>
+
+
+            </div>
+
+            <div class="napoln-kurs">
+
+                <h2>Свойства и Методы</h2>
+
+                <div class="napoln-kurs-hui">
+                    <div>
+                        <a href="#">42. Свойства</a>
+                        <a href="#">43. Методы</a>
+                        <a href="#">44. Неизменяемость </a>
+                        <a href="#">45. Свойства и методы как выражения </a>
+                        <a href="#"> 46. Цепочка вызовов </a>
+
+
+                    </div>
+                    <div>
+                        <p>В программах мы оперируем данными, которые могут обладать важными свойствами. В JavaScript
+                            свойства являются встроенными в язык. Помимо свойств, данные могут иметь методы — это
+                            функции, находящиеся внутри свойств. Свойства и методы рассматриваются как выражения,
+                            подобно переменным, константам или вызовам функций, и их можно комбинировать различными
+                            способами. Более подробное изучение этих тем представлено на специальных курсах, посвященных
+                            объектно-ориентированным возможностям JavaScript. В данном модуле мы рассмотрим основы.</p>
+                    </div>
+                </div>
+
+
+            </div>
+
+            <div class="napoln-kurs">
+
+                <h2>Логика</h2>
+
+                <div class="napoln-kurs-hui">
+                    <div>
+                        <a href="#">47. Логический тип </a>
+                        <a href="#">48. Предикаты</a>
+                        <a href="#">49. Комбинирование операций и функций</a>
+                        <a href="#"> 50. Логические операторы</a>
+                        <a href="#"> 51. Отрицание</a>
+                        <a href="#">52. Результат логических выражений</a>
+
+
+                    </div>
+                    <div>
+                        <p>Логические выражения позволяют отвечать на вопросы, возникающие в процессе выполнения
+                            программы. Например: пользователь прошел аутентификацию? Подписка оплачена? Год является
+                            високосным? В данном модуле мы изучаем функции-предикаты, которые задают вопрос и дают ответ
+                            на него — истина или ложь. Мы также практикуемся в написании таких функций и переходим к
+                            более сложным логическим выражениям.</p>
+                    </div>
+                </div>
+
+
+            </div>
+
+            <div class="napoln-kurs">
+
+                <h2>Условные конструкции</h2>
+
+                <div class="napoln-kurs-hui">
+                    <div>
+                        <a href="#">53. Условная конструкция (if)</a>
+                        <a href="#">54. else</a>
+                        <a href="#">55. Конструкция else if</a>
+                        <a href="#"> 56. Тернарный оператор</a>
+                        <a href="#"> 57. Конструкция Switch
+                        </a>
+
+
+
+                    </div>
+                    <div>
+                        <p>Функция-предикат имеет задачу получить ответ на вопрос, но часто это недостаточно, и нужно
+                            выполнить определенное действие в зависимости от ответа. В PHP существуют конструкции if и
+                            switch, с помощью которых программист может выбирать необходимое поведение программы в
+                            зависимости от различных условий: пропускать некоторые инструкции и выполнять другие. В этом
+                            модуле мы рассмотрим эти конструкции на практике.</p>
+                    </div>
+                </div>
+
+
+            </div>
+
+            <div class="napoln-kurs">
+
+                <h2>Циклы</h2>
+
+                <div class="napoln-kurs-hui">
+                    <div>
+                        <a href="#">58. Цикл While</a>
+                        <a href="#">59. Агрегация данных (Числа)</a>
+                        <a href="#">60. Агрегация данных (Строки)</a>
+                        <a href="#"> 61. Обход строк</a>
+                        <a href="#"> 62. Условия внутри тела цикла</a>
+                        <a href="#">63. Формирование строк в циклах</a>
+                        <a href="#">65. Синтаксический сахар</a>
+                        <a href="#"> 66. Инкремент и декремент </a>
+                        <a href="#">67. Возврат из циклов</a>
+                        <a href="#"> 68. Цикл For </a>
+
+                    </div>
+                    <div>
+                        <p>Любой код может повторяться множество раз, от десятков до миллионов. Это совместно с другими
+                            инструментами, такими как переменные и условия, открывает множество возможностей для
+                            создания программ и сложных систем. Давайте рассмотрим простой пример. Предположим, вам
+                            нужно найти определенную фразу в учебнике, состоящем из 500 страниц. Вы помните саму фразу,
+                            но не знаете номер страницы. Самым простым (хотя и длительным) способом является
+                            последовательный просмотр страниц до тех пор, пока не найдется нужная. Для выполнения таких
+                            повторяющихся действий необходимы циклы.</p>
+                    </div>
+                </div>
+
+
+            </div>
+
+
+
+
+
+
+
+
+
+
+
+
+            <div class="glav-kyrss">
+
+                <h2>Курсы</h2>
+
+                <div class="gav-kyrssi">
+
+                    <div class="gav-kyrssi-block">
+                        <a href="#">
+                            <div style="background-image: url(./img/ИконкиЯП/html.png);">
+                            </div>
+                            <h3>HTML</h3>
+                            <div>
+                                <div>
+                                    <p>
+                                        <img src="./img/часы.png" alt="">
+                                        10 часов
+
+                                    </p>
+                                </div>
+                                <div>
+                                    <p>
+                                        <img src="./img/люди.png" alt="">
+                                        5230
+                                    </p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="gav-kyrssi-block">
+                        <a href="#">
+                            <div style="background-image: url(./img/ИконкиЯП/css.png);">
+                            </div>
+                            <h3>CSS</h3>
+                            <div>
+                                <div>
+                                    <p>
+                                        <img src="./img/часы.png" alt="">
+                                        9 часов
+
+                                    </p>
+                                </div>
+                                <div>
+                                    <p>
+                                        <img src="./img/люди.png" alt="">
+                                        4127
+                                    </p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="gav-kyrssi-block">
+                        <a href="#">
+                            <div style="background-image: url(./img/ИконкиЯП/js.png);">
+                            </div>
+                            <h3>JavaScript</h3>
+                            <div>
+                                <div>
+                                    <p>
+                                        <img src="./img/часы.png" alt="">
+                                        18 часов
+
+                                    </p>
+                                </div>
+                                <div>
+                                    <p>
+                                        <img src="./img/люди.png" alt="">
+                                        10309
+                                    </p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="gav-kyrssi-block">
+                        <a href="#">
+                            <div style="background-image: url(./img/ИконкиЯП/php.png);">
+                            </div>
+                            <h3>PhP</h3>
+                            <div>
+                                <div>
+                                    <p>
+                                        <img src="./img/часы.png" alt="">
+                                        18 часов
+
+                                    </p>
+                                </div>
+                                <div>
+                                    <p>
+                                        <img src="./img/люди.png" alt="">
+                                        8320
+                                    </p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="gav-kyrssi-block">
+                        <a href="#">
+                            <div style="background-image: url(./img/ИконкиЯП/6132222.png);">
+                            </div>
+                            <h3>C++</h3>
+                            <div>
+                                <div>
+                                    <p>
+                                        <img src="./img/часы.png" alt="">
+                                        9 часов
+
+                                    </p>
+                                </div>
+                                <div>
+                                    <p>
+                                        <img src="./img/люди.png" alt="">
+                                        8239
+                                    </p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="gav-kyrssi-block">
+                        <a href="#">
+                            <div style="background-image: url(./img/ИконкиЯП/fapyt.png);">
+                            </div>
+                            <h3>Python</h3>
+                            <div>
+                                <div>
+                                    <p>
+                                        <img src="./img/часы.png" alt="">
+                                        18 часов
+
+                                    </p>
+                                </div>
+                                <div>
+                                    <p>
+                                        <img src="./img/люди.png" alt="">
+                                        23230
+                                    </p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="gav-kyrssi-block">
+                        <a href="./java.html">
+                            <div style="background-image: url(./img/ИконкиЯП/Java.png);">
+                            </div>
+                            <h3>Java</h3>
+                            <div>
+                                <div>
+                                    <p>
+                                        <img src="./img/часы.png" alt="">
+                                        10 часов
+
+                                    </p>
+                                </div>
+                                <div>
+                                    <p>
+                                        <img src="./img/люди.png" alt="">
+                                        5230
+                                    </p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="gav-kyrssi-block">
+                        <a href="#">
+                            <div style="background-image: url(./img/ИконкиЯП/ruby.svg);">
+                            </div>
+                            <h3>Ruby</h3>
+                            <div>
+                                <div>
+                                    <p>
+                                        <img src="./img/часы.png" alt="">
+                                        8 часов
+
+                                    </p>
+                                </div>
+                                <div>
+                                    <p>
+                                        <img src="./img/люди.png" alt="">
+                                        9230
+                                    </p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+
+
+                </div>
+
+            </div>
+
+
+
+
+        </div>
+
+
+
+    </main>
+
+    <footer class="footer">
+        <div class="footer-content content">
+            <div class="footer-column">
+                <h3>О нас</h3>
+                <p>Наша компания стремится предоставить вам лучший опыт в области обучения и развития.</p>
+            </div>
+            <div class="footer-column">
+                <h3>Контакты</h3>
+                <p>Телефон: +375 33 910-08-92</p>
+                <p>Email: codeforofficia@yandex.ru</p>
+                <p>Адрес: г. Барановичи, ул. Пирогова, д. 7</p>
+            </div>
+            <div class="footer-column">
+                <h3>Подписаться</h3>
+                <form class="subscribe-form">
+                    <input type="email" placeholder="Введите ваш email" required>
+                    <button type="submit">Подписаться</button>
+                </form>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Все права защищены. CodeFor.</p>
+        </div>
+    </footer>
+    <script>
+        // Массив с заменяемыми словами
+        var words = ['HTML', 'CSS', 'JavaScript', 'C++', 'Python', 'Java', 'Ruby', 'PHP'];
+        var index = 0;
+        var span = document.getElementById('word');
+
+        // Функция для замены слова
+        function changeWord() {
+            span.classList.add('erase');
+            setTimeout(() => {
+                span.textContent = words[index];
+                span.classList.remove('erase');
+                span.classList.add('type');
+                index = (index + 1) % words.length;
+                setTimeout(() => {
+                    span.classList.remove('type');
+                }, 500);
+            }, 500);
+        }
+
+        // Запускаем функцию каждые 4 секунды
+        setInterval(changeWord, 2500);
+
+        function toggleMenu() {
+            var menu = document.getElementById('mobilMenu');
+            menu.classList.toggle('active');
+        }
+
+
+    </script>
+
+    <script>
+        const accordionHeaders = document.querySelectorAll('.accordion-header');
+
+        accordionHeaders.forEach(header => {
+            header.addEventListener('click', () => {
+                const accordionItem = header.parentNode;
+                const isActive = accordionItem.classList.contains('active');
+
+                // Закрыть все активные панели
+                document.querySelectorAll('.accordion-item').forEach(item => {
+                    item.classList.remove('active');
+                });
+
+                // Разворачиваем текущую панель, если она не активна
+                if (!isActive) {
+                    accordionItem.classList.add('active');
+                }
+            });
+        });
+    </script>
+</body>
+
+</html>

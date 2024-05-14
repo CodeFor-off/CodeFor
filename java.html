@@ -1,0 +1,877 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Java - CodeFor </title>
+    <link rel="website icon" type="png" href="./img/Fauget/1.png">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+    <header>
+
+        <div class="content">
+            <div class="content-logo-head">
+
+                <div class="header-logo">
+
+                    <a href="/">
+                        <img src="./img/logo.svg" alt="">
+                    </a>
+
+                </div>
+
+
+                <div class="header-meny">
+
+
+                    <nav class="menu">
+                        <ul>
+                            <li><a href="/">Главная</a></li> <!-- Основной пункт "Меню1" -->
+                            <li><a href="#">Курсы</a> <!-- Пункт "Меню2" -->
+                                <!-- Подменю "Меню2" -->
+                                <ul class="submenu">
+                                    <a href="#" class="ZP">
+                                        <img src="./img/ИконкиЯП/html.png" alt="" class="html">
+                                        <p>HTML</p>
+
+                                    </a>
+                                    <a href="#" class="ZP">
+                                        <img src="./img/ИконкиЯП/css.png" alt="">
+                                        <p>CSS</p>
+
+                                    </a>
+
+                                    <a href="#" class="ZP">
+                                        <img src="./img/ИконкиЯП/js.png" alt="">
+                                        <p>JavaScript</p>
+
+
+                                    </a>
+                                    <a href="#" class="ZP">
+                                        <img src="./img/ИконкиЯП/php.png" alt="">
+                                        <p>PHP</p>
+
+
+                                    </a>
+                                    <a href="#" class="ZP">
+                                        <img src="./img/ИконкиЯП/c++.png" alt="">
+                                        <p>C++</p>
+
+
+                                    </a>
+                                    <a href="#" class="ZP">
+                                        <img src="./img/ИконкиЯП/питон.png" alt="">
+                                        <p>Python</p>
+
+
+                                    </a>
+                                    <a href="#" class="ZP">
+                                        <img src="./img/ИконкиЯП/Java.png" alt="">
+
+                                        <p>Java</p>
+
+                                    </a>
+
+                                    <a href="#" class="ZP">
+                                        <img src="./img/ИконкиЯП/ruby.svg" alt="">
+
+                                        <p>Ruby</p>
+
+                                    </a>
+
+
+                                </ul>
+
+                            </li>
+
+                            <li><a href="#">О CodeFor</a>
+
+                                <ul class="submenu">
+                                    <a href="#" class="ZP">
+
+                                        <p>О платформе</p>
+
+                                    </a>
+                                    <a href="#" class="ZP">
+
+                                        <p>Цель проекта</p>
+
+                                    </a>
+
+                                    <a href="#" class="ZP">
+
+                                        <p>Разработчики</p>
+
+
+                                    </a>
+                                    <a href="#" class="ZP">
+
+                                        <p> История CodeFor</p>
+
+
+                                    </a>
+                                    <a href="#" class="ZP">
+
+                                        <p>Следующие обновления</p>
+
+
+                                    </a>
+                                    <a href="#" class="ZP">
+
+                                        <p>Новости</p>
+
+
+                                    </a>
+
+
+                                </ul>
+                            </li>
+
+                            <li>
+                                <a href="https://code.visualstudio.com/download" target="_blank"> Скачать Visual
+                                    Studio</a>
+                            </li>
+
+                        </ul>
+                    </nav>
+
+
+                    <div class="mobil-menu-container">
+                        <div class="mobil-menu-icon" onclick="toggleMenu()">
+                            <div>
+                                <img src="./img/menu.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+
+                    <ul class="mobil-menu" id="mobilMenu">
+
+                        <span class="close-icon" onclick="toggleMenu()">
+                            <img src="./img/close (1).png" alt="">
+                        </span>
+                        <div class="mobil-menu-content">
+                            <img src="./img/logo.svg" alt="">
+                            <div class="mobil-menu-content-line"></div>
+                            <div class="accordion">
+
+                                <div class="accordion-item">
+                                    <div class="accordion-header">Курсы
+                                        <img src="./img/arrow-down-sign-to-navigate.png" alt="">
+                                    </div>
+                                    <div class="accordion-content">
+                                        <a href="#">
+                                            <img src="./img/ИконкиЯП/html.png" alt="">
+                                            <p>HTML</p>
+                                        </a>
+
+                                        <a href="#">
+                                            <img src="./img/ИконкиЯП/css.png" alt="">
+                                            <p>CSS</p>
+                                        </a>
+
+                                        <a href="#">
+                                            <img src="./img/ИконкиЯП/js.png" alt="">
+                                            <p>JavaScript</p>
+                                        </a>
+
+
+                                        <a href="#">
+                                            <img src="./img/ИконкиЯП/php.png" alt="">
+                                            <p>PHP</p>
+                                        </a>
+
+                                        <a href="#">
+                                            <img src="./img/ИконкиЯП/c++.png" alt="">
+                                            <p>C++</p>
+                                        </a>
+
+                                        <a href="#">
+                                            <img src="./img/ИконкиЯП/питон.png" alt="">
+                                            <p>Python</p>
+                                        </a>
+
+                                        <a href="#">
+                                            <img src="./img/ИконкиЯП/Java.png" alt="">
+                                            <p>Java</p>
+                                        </a>
+
+                                        <a href="#">
+                                            <img src="./img/ИконкиЯП/ruby.svg" alt="">
+                                            <p>Ruby</p>
+                                        </a>
+
+
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <div class="accordion-header">O CodeFor
+                                        <img src="./img/arrow-down-sign-to-navigate.png" alt="">
+                                    </div>
+                                    <div class="accordion-content">
+                                        <a href="#">
+
+                                            <p>О платформе</p>
+                                        </a>
+                                        <a href="#">
+
+                                            <p>Цель проекта</p>
+                                        </a>
+                                        <a href="#">
+
+                                            <p>Разработчики</p>
+                                        </a>
+                                        <a href="#">
+
+                                            <p>История CodeFor</p>
+                                        </a>
+                                        <a href="#">
+
+                                            <p>Следующие обновления</p>
+                                        </a>
+                                        <a href="#">
+
+                                            <p>Новости</p>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </ul>
+
+
+
+                </div>
+                <div class="header-regestration">
+
+                    <a href="./vhod.html">Вход</a>
+
+                    <a href="./regestration.html">Регистрация</a>
+
+                </div>
+
+
+
+
+            </div>
+        </div>
+
+    </header>
+
+    <main>
+
+        <div class="content">
+            <div class="glav-ramka">
+                <div class="glav-ramka-left">
+
+                    <p>Бесплатные курсы программирования</p>
+                    <h1>Курс Java: обучение программированию на ява с нуля (бесплатно) </h1>
+                    <p>С Изучение программирования — непростой и длительный процесс. Изучение синтаксиса языка — самая
+                        простая и короткая часть в пути, но без неё невозможно начать. Этот курс посвящен азам написания
+                        программ на Java. Он готовит плацдарм для написания осмысленных программ</p>
+                    <div class="header-her">
+                        <div>
+                            <img src="./img/часы.png" alt="">
+                            <p>15 часов</p>
+                        </div>
+                        <div>
+                            <img src="./img/люди.png" alt="">
+                            <p>5230 студентов</p>
+                        </div>
+
+                    </div>
+                    <a href="./kyrsi.html" class="bottome">Начать обучение</a>
+
+
+                </div>
+                <div class="glav-ramka-reaght hader-kurs">
+                    <div>
+                        <img src="./img/ИконкиЯП/Java.png" alt="">
+                    </div>
+                </div>
+            </div>
+
+
+
+
+            <div class="napoln-kurs">
+
+                <h2>Основы Java</h2>
+
+                <div class="napoln-kurs-hui">
+                    <div>
+                        <a href="#">1. Привет, Мир!</a>
+                        <a href="#">2. Комментарии</a>
+                        <a href="#">3. Инструкции</a>
+                        <a href="#">4. Как мы проверяем ваши решения</a>
+                        <a href="#">5. Ошибки оформление</a>
+                    </div>
+                    <div>
+                        <p>Мы начнем изучение Java с нуля, начиная с основ. Первый модуль представляет собой площадку
+                            для создания осмысленных программ. В нем мы разберем, как написать свой первый код на Java и
+                            узнаем, что такое комментарии и почему они важны. Мы также рассмотрим понятие тестирования
+                            на примере проверки ваших решений и узнаем, как интерпретировать результаты тестов.</p>
+                    </div>
+                </div>
+
+
+            </div>
+
+            <div class="napoln-kurs">
+
+                <h2>Арифметика</h2>
+
+                <div class="napoln-kurs-hui">
+                    <div>
+                        <a href="#"> 6. Арифметические операции</a>
+                        <a href="#">7. Операторы</a>
+                        <a href="#">8. Коммутативная операция</a>
+                        <a href="#">9. Композиция операций</a>
+                        <a href="#">10. Приоритет операций</a>
+                        <a href="#">11. Числа с плавающей точкой</a>
+                        <a href="#">12. Линер</a>
+
+                    </div>
+                    <div>
+                        <p>Современные программы выполняют множество функций, от обслуживания бизнеса до помощи в
+                            повседневной жизни и развлечений. Однако основой их работы по-прежнему являются вычисления.
+                            Одной из самых простых и фундаментальных тем в программировании является арифметика. В этом
+                            модуле мы будем переводить арифметические операции на язык программирования. Мы вспомним
+                            школьные правила из математических уроков и обсудим порядок приоритета операций.</p>
+                    </div>
+                </div>
+
+
+            </div>
+
+            <div class="napoln-kurs">
+
+                <h2>Строки</h2>
+
+                <div class="napoln-kurs-hui">
+                    <div>
+                        <a href="#">13. Кавычки</a>
+                        <a href="#">14. Экранирующие последовательности</a>
+                        <a href="#">15. Конкатенация</a>
+
+                    </div>
+                    <div>
+                        <p>В программировании текст называется "строками", и эта тема не настолько проста, как может
+                            показаться. Как вывести фразу, содержащую как одинарные, так и двойные кавычки? Как
+                            правильно обращаться с текстом, учитывая, что компьютер не распознает символы? Модуль
+                            посвящен различным аспектам работы с текстом, включая работу с кавычками, экранирование
+                            символов и кодировку.</p>
+                    </div>
+                </div>
+
+
+            </div>
+
+            <div class="napoln-kurs">
+
+                <h2>Переменные</h2>
+
+                <div class="napoln-kurs-hui">
+                    <div>
+                        <a href="#">16. Что такое переменная </a>
+                        <a href="#"> 17. Изменение переменной</a>
+                        <a href="#">18. Выбор имени переменной</a>
+                        <a href="#"> 19. Ошибки при работе с переменными</a>
+                        <a href="#"> 20. Выражения в определениях</a>
+                        <a href="#"> 21. Переменные и конкатенация</a>
+                        <a href="#">22. Именование переменных</a>
+                        <a href="#">23. Магические числа</a>
+                        <a href="#">24. Константы</a>
+
+
+
+                    </div>
+                    <div>
+                        <p> Информацию можно сохранять в специальных "хранилищах" — переменных. Это позволяет повторно
+                            использовать имеющиеся данные и избежать их дублирования в разных частях кода. В данном
+                            модуле мы изучим, как изменять переменные и давать им осмысленные имена, чтобы код был
+                            понятен другим разработчикам. Вы узнаете, что выбор имени переменной — не такая простая
+                            задача! Кроме того, мы рассмотрим, как использовать переменные для упрощения сложных
+                            вычислений.</p>
+                    </div>
+                </div>
+
+
+            </div>
+
+            <div class="napoln-kurs">
+
+                <h2>Типы данных Java</h2>
+
+                <div class="napoln-kurs-hui">
+                    <div>
+
+
+                        <a href="#">25. Зачем нужны типы данных</a>
+                        <a href="#"> 26. Явная типизация</a>
+                        <a href="#">27. Какие бывают типы</a>
+                        <a href="#"> 28. Значение null</a>
+                        <a href="#"> 29. Явное преобразование типов</a>
+                    </div>
+                    <div>
+                        <p>В Java используется строгая статическая типизация, что означает, что типы данных должны быть
+                            объявлены явно и проверяются на этапе компиляции. Это влияет на структуру кода, делает его
+                            более надежным и устойчивым к ошибкам. В данном модуле мы изучим понятие типов данных, их
+                            различные виды, а также узнаем, какие сущности в Java отвечают за вывод типов.</p>
+                    </div>
+                </div>
+
+
+            </div>
+
+            <div class="napoln-kurs">
+
+                <h2>Вызов методов</h2>
+
+                <div class="napoln-kurs-hui">
+                    <div>
+                        <a href="#">30. Методы и их вызов</a>
+
+
+
+
+
+
+
+                        <a href="#">31. Параметры методов</a>
+                        <a href="#">32. Вызов метода — выражение</a>
+                        <a href="#"> 33. Неизменяемость строк</a>
+                        <a href="#"> 34. Цепочки вызовов методов</a>
+                        <a href="#">35. Детерминированность</a>
+                        <a href="#"> 36. Стандартная библиотека </a>
+                        <a href="#"> 37. Какие бывают методы</a>
+                    </div>
+                    <div>
+                        <p>В программировании каждая произвольная операция выражается с помощью понятия "функция" или
+                            "метод". Функции являются основными строительными блоками систем, создаваемых
+                            программистами. В Java эти функции называются методами. В этом модуле мы научимся
+                            использовать уже созданные методы, изучим сигнатуры методов в документации и научимся их
+                            применять.</p>
+                    </div>
+                </div>
+
+
+            </div>
+
+            <div class="napoln-kurs">
+
+                <h2>Определение методов</h2>
+
+                <div class="napoln-kurs-hui">
+                    <div>
+                        <a href="#">
+                            38. Создание (определение) метода </a>
+                        <a href="#">39. Метод main</a>
+                        <a href="#">40. Возврат значений</a>
+                        <a href="#">41. Определение методов</a>
+                        <a href="#">42. Необязательные параметры методов</a>
+
+                    </div>
+                    <div>
+                        <p>Создание собственных методов значительно облегчает процесс написания и поддержки программного
+                            кода. Например, возможность определения методов позволяет объединить сложные операции в
+                            одном месте, скрывая всю сложность в одном простом методе. Освоив навык создания методов, вы
+                            сделаете первый шаг на пути к разработке действительно полезных программ. Мы поможем вам в
+                            этом. В этом модуле вы создадите свой первый метод и научитесь давать ему, а также
+                            переменным, понятные названия.</p>
+                    </div>
+                </div>
+
+
+            </div>
+
+            <div class="napoln-kurs">
+
+                <h2>Логика </h2>
+
+                <div class="napoln-kurs-hui">
+                    <div>
+                        <a href="#">
+                            43. Логический тип
+
+
+
+                        </a>
+                        <a href="#">44. Сравнение строк</a>
+                        <a href="#">45. Комбинирование операций и методов</a>
+                        <a href="#">46. Логические операторы</a>
+                        <a href="#">47. Отрицание</a>
+
+                    </div>
+                    <div>
+                        <p>Логические выражения используются для ответа на вопросы, возникающие в процессе работы
+                            программы. Например: пользователь аутентифицирован? Подписка оплачена? Год високосный? В
+                            данном модуле мы изучаем предикативные функции, которые формулируют вопрос и дают на него
+                            ответ — истина или ложь. Мы попрактикуемся в написании таких функций и перейдем к более
+                            сложным логическим выражениям.</p>
+                    </div>
+                </div>
+
+
+            </div>
+            <div class="napoln-kurs">
+
+                <h2>Условные конструкции</h2>
+
+                <div class="napoln-kurs-hui">
+                    <div>
+                        <a href="#">
+                            48. Условная конструкция (if)
+
+
+
+
+                        </a>
+                        <a href="#">49. Конструкция if-else</a>
+                        <a href="#">50. Конструкция else if</a>
+                        <a href="#">51. Тернарный оператор</a>
+                        <a href="#">52. Конструкция Switch</a>
+
+                    </div>
+                    <div>
+                        <p>Функция-предикат предназначена для получения ответа на вопрос, однако в большинстве случаев
+                            этого недостаточно, и требуется выполнить определенное действие в зависимости от ответа.
+                            Конструкции Java, такие как if и switch, предоставляют программисту возможность выбирать
+                            необходимое поведение программы в зависимости от различных условий: пропускать определенные
+                            инструкции и выполнять другие. В этом модуле мы разберем их на практике.</p>
+                    </div>
+                </div>
+
+
+            </div>
+
+            <div class="napoln-kurs">
+
+                <h2>Циклы</h2>
+
+                <div class="napoln-kurs-hui">
+                    <div>
+                        <a href="#">
+                            53. Цикл While
+
+
+
+
+
+
+
+
+
+                        </a>
+                        <a href="#">54. Агрегация данных (Числа)</a>
+                        <a href="#">55. Агрегация данных (Строки)</a>
+                        <a href="#">56. Обход строк</a>
+                        <a href="#">57. Условия внутри тела цикла</a>
+                        <a href="#">58. Формирование строк в циклах</a>
+                        <a href="#"> 59. Синтаксический сахар </a>
+                        <a href="#"> 60. Инкремент и декремент</a>
+                        <a href="#"> 61. Возврат из циклов</a>
+                        <a href="#"> 62. Цикл For</a>
+                    </div>
+                    <div>
+                        <p>Любой фрагмент кода может выполняться множество раз — десятки, тысячи или даже миллионы раз.
+                            Сочетание этой возможности с другими инструментами, такими как переменные и условия,
+                            открывает широкие перспективы для создания программ и сложных систем. Рассмотрим простой
+                            пример: вам нужно найти определенную фразу в учебнике объемом в 500 страниц, и вы помните
+                            саму фразу, но не знаете номер страницы. Самый простой (хотя и длительный) способ —
+                            последовательно просматривать страницы до тех пор, пока не найдете нужную. Для выполнения
+                            таких повторяющихся действий необходимы циклы.</p>
+                    </div>
+                </div>
+
+
+            </div>
+
+
+
+
+            <div class="glav-kyrss">
+
+                <h2>Курсы</h2>
+
+                <div class="gav-kyrssi">
+
+                    <div class="gav-kyrssi-block">
+                        <a href="#">
+                            <div style="background-image: url(./img/ИконкиЯП/html.png);">
+                            </div>
+                            <h3>HTML</h3>
+                            <div>
+                                <div>
+                                    <p>
+                                        <img src="./img/часы.png" alt="">
+                                        10 часов
+
+                                    </p>
+                                </div>
+                                <div>
+                                    <p>
+                                        <img src="./img/люди.png" alt="">
+                                        5230
+                                    </p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="gav-kyrssi-block">
+                        <a href="#">
+                            <div style="background-image: url(./img/ИконкиЯП/css.png);">
+                            </div>
+                            <h3>CSS</h3>
+                            <div>
+                                <div>
+                                    <p>
+                                        <img src="./img/часы.png" alt="">
+                                        9 часов
+
+                                    </p>
+                                </div>
+                                <div>
+                                    <p>
+                                        <img src="./img/люди.png" alt="">
+                                        4127
+                                    </p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="gav-kyrssi-block">
+                        <a href="#">
+                            <div style="background-image: url(./img/ИконкиЯП/js.png);">
+                            </div>
+                            <h3>JavaScript</h3>
+                            <div>
+                                <div>
+                                    <p>
+                                        <img src="./img/часы.png" alt="">
+                                        18 часов
+
+                                    </p>
+                                </div>
+                                <div>
+                                    <p>
+                                        <img src="./img/люди.png" alt="">
+                                        10309
+                                    </p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="gav-kyrssi-block">
+                        <a href="#">
+                            <div style="background-image: url(./img/ИконкиЯП/php.png);">
+                            </div>
+                            <h3>PhP</h3>
+                            <div>
+                                <div>
+                                    <p>
+                                        <img src="./img/часы.png" alt="">
+                                        18 часов
+
+                                    </p>
+                                </div>
+                                <div>
+                                    <p>
+                                        <img src="./img/люди.png" alt="">
+                                        8320
+                                    </p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="gav-kyrssi-block">
+                        <a href="#">
+                            <div style="background-image: url(./img/ИконкиЯП/6132222.png);">
+                            </div>
+                            <h3>C++</h3>
+                            <div>
+                                <div>
+                                    <p>
+                                        <img src="./img/часы.png" alt="">
+                                        9 часов
+
+                                    </p>
+                                </div>
+                                <div>
+                                    <p>
+                                        <img src="./img/люди.png" alt="">
+                                        8239
+                                    </p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="gav-kyrssi-block">
+                        <a href="#">
+                            <div style="background-image: url(./img/ИконкиЯП/fapyt.png);">
+                            </div>
+                            <h3>Python</h3>
+                            <div>
+                                <div>
+                                    <p>
+                                        <img src="./img/часы.png" alt="">
+                                        18 часов
+
+                                    </p>
+                                </div>
+                                <div>
+                                    <p>
+                                        <img src="./img/люди.png" alt="">
+                                        23230
+                                    </p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="gav-kyrssi-block">
+                        <a href="./java.html">
+                            <div style="background-image: url(./img/ИконкиЯП/Java.png);">
+                            </div>
+                            <h3>Java</h3>
+                            <div>
+                                <div>
+                                    <p>
+                                        <img src="./img/часы.png" alt="">
+                                        10 часов
+
+                                    </p>
+                                </div>
+                                <div>
+                                    <p>
+                                        <img src="./img/люди.png" alt="">
+                                        5230
+                                    </p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="gav-kyrssi-block">
+                        <a href="#">
+                            <div style="background-image: url(./img/ИконкиЯП/ruby.svg);">
+                            </div>
+                            <h3>Ruby</h3>
+                            <div>
+                                <div>
+                                    <p>
+                                        <img src="./img/часы.png" alt="">
+                                        8 часов
+
+                                    </p>
+                                </div>
+                                <div>
+                                    <p>
+                                        <img src="./img/люди.png" alt="">
+                                        9230
+                                    </p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+
+
+                </div>
+
+            </div>
+
+
+
+
+        </div>
+
+
+
+    </main>
+
+    <footer class="footer">
+        <div class="footer-content content">
+            <div class="footer-column">
+                <h3>О нас</h3>
+                <p>Наша компания стремится предоставить вам лучший опыт в области обучения и развития.</p>
+            </div>
+            <div class="footer-column">
+                <h3>Контакты</h3>
+                <p>Телефон: +375 33 910-08-92</p>
+                <p>Email: codeforofficia@yandex.ru</p>
+                <p>Адрес: г. Барановичи, ул. Пирогова, д. 7</p>
+            </div>
+            <div class="footer-column">
+                <h3>Подписаться</h3>
+                <form class="subscribe-form">
+                    <input type="email" placeholder="Введите ваш email" required>
+                    <button type="submit">Подписаться</button>
+                </form>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Все права защищены. CodeFor.</p>
+        </div>
+    </footer>
+    <script>
+        // Массив с заменяемыми словами
+        var words = ['HTML', 'CSS', 'JavaScript', 'C++', 'Python', 'Java', 'Ruby', 'PHP'];
+        var index = 0;
+        var span = document.getElementById('word');
+
+        // Функция для замены слова
+        function changeWord() {
+            span.classList.add('erase');
+            setTimeout(() => {
+                span.textContent = words[index];
+                span.classList.remove('erase');
+                span.classList.add('type');
+                index = (index + 1) % words.length;
+                setTimeout(() => {
+                    span.classList.remove('type');
+                }, 500);
+            }, 500);
+        }
+
+        // Запускаем функцию каждые 4 секунды
+        setInterval(changeWord, 2500);
+
+        function toggleMenu() {
+            var menu = document.getElementById('mobilMenu');
+            menu.classList.toggle('active');
+        }
+
+
+    </script>
+
+    <script>
+        const accordionHeaders = document.querySelectorAll('.accordion-header');
+
+        accordionHeaders.forEach(header => {
+            header.addEventListener('click', () => {
+                const accordionItem = header.parentNode;
+                const isActive = accordionItem.classList.contains('active');
+
+                // Закрыть все активные панели
+                document.querySelectorAll('.accordion-item').forEach(item => {
+                    item.classList.remove('active');
+                });
+
+                // Разворачиваем текущую панель, если она не активна
+                if (!isActive) {
+                    accordionItem.classList.add('active');
+                }
+            });
+        });
+    </script>
+</body>
+
+</html>

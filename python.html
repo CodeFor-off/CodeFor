@@ -1,0 +1,915 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Python - CodeFor </title>
+    <link rel="website icon" type="png" href="./img/Fauget/1.png">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+    <header>
+
+        <div class="content">
+            <div class="content-logo-head">
+
+                <div class="header-logo">
+
+                    <a href="/">
+                        <img src="./img/logo.svg" alt="">
+                    </a>
+
+                </div>
+
+
+                <div class="header-meny">
+
+
+                    <nav class="menu">
+                        <ul>
+                            <li><a href="/">Главная</a></li> <!-- Основной пункт "Меню1" -->
+                            <li><a href="#">Курсы</a> <!-- Пункт "Меню2" -->
+                                <!-- Подменю "Меню2" -->
+                                <ul class="submenu">
+                                    <a href="#" class="ZP">
+                                        <img src="./img/ИконкиЯП/html.png" alt="" class="html">
+                                        <p>HTML</p>
+
+                                    </a>
+                                    <a href="#" class="ZP">
+                                        <img src="./img/ИконкиЯП/css.png" alt="">
+                                        <p>CSS</p>
+
+                                    </a>
+
+                                    <a href="#" class="ZP">
+                                        <img src="./img/ИконкиЯП/js.png" alt="">
+                                        <p>JavaScript</p>
+
+
+                                    </a>
+                                    <a href="#" class="ZP">
+                                        <img src="./img/ИконкиЯП/php.png" alt="">
+                                        <p>PHP</p>
+
+
+                                    </a>
+                                    <a href="#" class="ZP">
+                                        <img src="./img/ИконкиЯП/c++.png" alt="">
+                                        <p>C++</p>
+
+
+                                    </a>
+                                    <a href="#" class="ZP">
+                                        <img src="./img/ИконкиЯП/питон.png" alt="">
+                                        <p>Python</p>
+
+
+                                    </a>
+                                    <a href="#" class="ZP">
+                                        <img src="./img/ИконкиЯП/Java.png" alt="">
+
+                                        <p>Java</p>
+
+                                    </a>
+
+                                    <a href="#" class="ZP">
+                                        <img src="./img/ИконкиЯП/ruby.svg" alt="">
+
+                                        <p>Ruby</p>
+
+                                    </a>
+
+
+                                </ul>
+
+                            </li>
+
+                            <li><a href="#">О CodeFor</a>
+
+                                <ul class="submenu">
+                                    <a href="#" class="ZP">
+
+                                        <p>О платформе</p>
+
+                                    </a>
+                                    <a href="#" class="ZP">
+
+                                        <p>Цель проекта</p>
+
+                                    </a>
+
+                                    <a href="#" class="ZP">
+
+                                        <p>Разработчики</p>
+
+
+                                    </a>
+                                    <a href="#" class="ZP">
+
+                                        <p> История CodeFor</p>
+
+
+                                    </a>
+                                    <a href="#" class="ZP">
+
+                                        <p>Следующие обновления</p>
+
+
+                                    </a>
+                                    <a href="#" class="ZP">
+
+                                        <p>Новости</p>
+
+
+                                    </a>
+
+
+                                </ul>
+                            </li>
+
+                            <li>
+                                <a href="https://code.visualstudio.com/download" target="_blank"> Скачать Visual
+                                    Studio</a>
+                            </li>
+
+                        </ul>
+                    </nav>
+
+
+                    <div class="mobil-menu-container">
+                        <div class="mobil-menu-icon" onclick="toggleMenu()">
+                            <div>
+                                <img src="./img/menu.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+
+                    <ul class="mobil-menu" id="mobilMenu">
+
+                        <span class="close-icon" onclick="toggleMenu()">
+                            <img src="./img/close (1).png" alt="">
+                        </span>
+                        <div class="mobil-menu-content">
+                            <img src="./img/logo.svg" alt="">
+                            <div class="mobil-menu-content-line"></div>
+                            <div class="accordion">
+
+                                <div class="accordion-item">
+                                    <div class="accordion-header">Курсы
+                                        <img src="./img/arrow-down-sign-to-navigate.png" alt="">
+                                    </div>
+                                    <div class="accordion-content">
+                                        <a href="#">
+                                            <img src="./img/ИконкиЯП/html.png" alt="">
+                                            <p>HTML</p>
+                                        </a>
+
+                                        <a href="#">
+                                            <img src="./img/ИконкиЯП/css.png" alt="">
+                                            <p>CSS</p>
+                                        </a>
+
+                                        <a href="#">
+                                            <img src="./img/ИконкиЯП/js.png" alt="">
+                                            <p>JavaScript</p>
+                                        </a>
+
+
+                                        <a href="#">
+                                            <img src="./img/ИконкиЯП/php.png" alt="">
+                                            <p>PHP</p>
+                                        </a>
+
+                                        <a href="#">
+                                            <img src="./img/ИконкиЯП/c++.png" alt="">
+                                            <p>C++</p>
+                                        </a>
+
+                                        <a href="#">
+                                            <img src="./img/ИконкиЯП/питон.png" alt="">
+                                            <p>Python</p>
+                                        </a>
+
+                                        <a href="#">
+                                            <img src="./img/ИконкиЯП/Java.png" alt="">
+                                            <p>Java</p>
+                                        </a>
+
+                                        <a href="#">
+                                            <img src="./img/ИконкиЯП/ruby.svg" alt="">
+                                            <p>Ruby</p>
+                                        </a>
+
+
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <div class="accordion-header">O CodeFor
+                                        <img src="./img/arrow-down-sign-to-navigate.png" alt="">
+                                    </div>
+                                    <div class="accordion-content">
+                                        <a href="#">
+
+                                            <p>О платформе</p>
+                                        </a>
+                                        <a href="#">
+
+                                            <p>Цель проекта</p>
+                                        </a>
+                                        <a href="#">
+
+                                            <p>Разработчики</p>
+                                        </a>
+                                        <a href="#">
+
+                                            <p>История CodeFor</p>
+                                        </a>
+                                        <a href="#">
+
+                                            <p>Следующие обновления</p>
+                                        </a>
+                                        <a href="#">
+
+                                            <p>Новости</p>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </ul>
+
+
+
+                </div>
+                <div class="header-regestration">
+
+                    <a href="./vhod.html">Вход</a>
+
+                    <a href="./regestration.html">Регистрация</a>
+
+                </div>
+
+
+
+
+            </div>
+        </div>
+
+    </header>
+
+    <main>
+
+        <div class="content">
+            <div class="glav-ramka">
+                <div class="glav-ramka-left">
+
+                    <p>Бесплатные курсы программирования</p>
+                    <h1>Бесплатный курс Python (питон), самостоятельное обучение программированию с нуля</h1>
+                    <p>Изучение программирования — непростой и длительный процесс. Изучение синтаксиса языка — самая
+                        простая и короткая часть в пути, но без неё невозможно начать. Этот курс посвящен азам написания
+                        программ на Python. Он готовит плацдарм для написания осмысленных программ</p>
+                    <div class="header-her">
+                        <div>
+                            <img src="./img/часы.png" alt="">
+                            <p>18 часов</p>
+                        </div>
+                        <div>
+                            <img src="./img/люди.png" alt="">
+                            <p>23230 студентов</p>
+                        </div>
+
+                    </div>
+                    <a href="./kyrsi.html" class="bottome">Начать обучение</a>
+
+
+                </div>
+                <div class="glav-ramka-reaght hader-kurs">
+                    <div>
+                        <img src="./img/ИконкиЯП/python_18894.png" alt="">
+                    </div>
+                </div>
+            </div>
+
+
+
+
+            <div class="napoln-kurs">
+
+                <h2>Основы языка Python</h2>
+
+                <div class="napoln-kurs-hui">
+                    <div>
+                        <a href="#"> 1. Привет, Мир!</a>
+                        <a href="#">2. Комментарии</a>
+                        <a href="#">3. Инструкции (Statements)</a>
+                        <a href="#">4. Синтаксические ошибки</a>
+
+
+
+                    </div>
+                    <div>
+                        <p>Python, иногда называемый "питоном", является популярным и перспективным языком
+                            программирования. Он часто выбирается для первого знакомства с программированием. Мы начнем
+                            изучение Python с самого начала, с нуля. Первый модуль представляет собой базу для написания
+                            осмысленных программ на этом языке. Мы рассмотрим, как дать компьютеру команду на языке
+                            Python. Обсудим, что такое комментарии и почему они необходимы. Через примеры проверки
+                            решений на сайте мы рассмотрим процесс тестирования и разберемся, как интерпретировать вывод
+                            тестов. Мы также объясним важность соблюдения грамматических правил языка программирования.
+                        </p>
+                    </div>
+                </div>
+
+
+            </div>
+
+            <div class="napoln-kurs">
+
+                <h2>Арифметика в Python</h2>
+
+                <div class="napoln-kurs-hui">
+                    <div>
+                        <a href="#"> 5. Арифметические операции</a>
+                        <a href="#">6. Операторы </a>
+                        <a href="#">7. Коммутативная операция</a>
+                        <a href="#">8. Композиция операций</a>
+                        <a href="#">9. Приоритет</a>
+                        <a href="#">10. Числа с плавающей точкой</a>
+                        <a href="#">11. Линтер</a>
+
+                    </div>
+                    <div>
+                        <p>Современные программы выполняют различные функции: от обслуживания бизнесов до повседневных
+                            задач и развлечений. Но в их основе всегда лежат вычисления. Арифметика является одной из
+                            наиболее простых и базовых тем в программировании. В этом модуле мы рассмотрим основы
+                            арифметических действий на языке программирования, изучим базовую терминологию, такую как
+                            операторы и операнды, и обсудим приоритет операций. Наконец, мы узнаем, что такое линтер и
+                            почему он может выдавать предупреждения.</p>
+                    </div>
+                </div>
+
+
+            </div>
+
+            <div class="napoln-kurs">
+
+                <h2>Строки</h2>
+
+                <div class="napoln-kurs-hui">
+                    <div>
+                        <a href="#">12. Кавычки</a>
+                        <a href="#">13. Экранированные последовательности</a>
+                        <a href="#">14. Конкатенация</a>
+                        <a href="#">15. Кодировка</a>
+
+
+
+                    </div>
+                    <div>
+                        <p>Термин "строки" в программировании обозначает текст. Эта тема гораздо сложнее, чем кажется на
+                            первый взгляд. Как вывести фразу, в которой присутствуют одинарные и двойные кавычки
+                            одновременно? Что такое экранированная последовательность? Модуль посвящен различным
+                            аспектам написания текста в программировании. Мы проведем эксперименты с выводом различных
+                            строк и обсудим вопросы кодировки.</p>
+                    </div>
+                </div>
+
+
+            </div>
+
+            <div class="napoln-kurs">
+
+                <h2>Переменные</h2>
+
+                <div class="napoln-kurs-hui">
+                    <div>
+                        <a href="#">16. Что такое переменная</a>
+                        <a href="#"> 17. Изменение переменной</a>
+                        <a href="#">18. Выбор имени переменной</a>
+                        <a href="#">19. Ошибки при работе с переменными</a>
+                        <a href="#"> 20. Выражения в определениях </a>
+                        <a href="#"> 21. Переменные и конкатенация</a>
+                        <a href="#">22. Именование переменных</a>
+                        <a href="#">23. Магические числа</a>
+                        <a href="#">24. Константы</a>
+
+
+
+
+                    </div>
+                    <div>
+                        <p>Данные можно сохранять в специальных "хранилищах" и многократно использовать. Такие хранилища
+                            называются переменными, и они способствуют упрощению кода и избавлению от избыточных
+                            повторений.</p>
+                    </div>
+                </div>
+
+
+            </div>
+
+            <div class="napoln-kurs">
+
+                <h2>Глубже про строки</h2>
+
+                <div class="napoln-kurs-hui">
+                    <div>
+                        <a href="#">25. Интерполяция</a>
+                        <a href="#"> 26. Извлечение символов из строки</a>
+                        <a href="#">27. Срезы строк</a>
+                        <a href="#"> 28. Multi-line строки</a>
+                    </div>
+                    <div>
+                        <p>Продолжаем исследовать строки и их взаимосвязь с переменными. Рассматриваем интерполяцию,
+                            извлечение символов, срезы и другие аспекты.</p>
+                    </div>
+                </div>
+
+
+            </div>
+
+            <div class="napoln-kurs">
+
+                <h2>Типы данных</h2>
+
+                <div class="napoln-kurs-hui">
+                    <div>
+                        <a href="#">29. Типы данных</a>
+                        <a href="#">30. Сильная (или Строгая) типизация</a>
+                        <a href="#">31. Неизменяемость примитивных типов </a>
+                        <a href="#">32. Явное преобразование типов</a>
+
+
+                    </div>
+                    <div>
+                        <p>Python - это язык с сильной типизацией и неизменяемыми примитивными типами данных. Если мы
+                            попытаемся умножить число на строку в Python, произойдет ошибка типа данных. Python понимает
+                            тип данных по передаваемым значениям и выполняет операции в соответствии с этим типом.
+                            Преобразование типов - это процесс изменения типа данных одного объекта на другой тип.
+                            Ответы на эти вопросы можно найти в текущем модуле.</p>
+                    </div>
+                </div>
+
+
+            </div>
+
+            <div class="napoln-kurs">
+
+                <h2>Вызов функций</h2>
+
+                <div class="napoln-kurs-hui">
+                    <div>
+                        <a href="#">33. Функции и их вызов</a>
+                        <a href="#">34. Сигнатура функции </a>
+                        <a href="#">35. Аргументы по умолчанию </a>
+                        <a href="#">36. Вызов функции — выражение</a>
+                        <a href="#">37. Функции с переменным числом параметров</a>
+                        <a href="#">38. Детерминированность</a>
+                        <a href="#">39. Стандартная библиотека</a>
+
+
+                    </div>
+                    <div>
+                        <p>Для выполнения различных операций в программировании используется понятие "функция". Функции
+                            представляют собой основные элементы, из которых строятся программные системы. В данном
+                            модуле мы изучим использование уже существующих функций. Рассмотрим сигнатуру функции в
+                            документации и научимся применять её. Также мы познакомимся со стандартными библиотеками,
+                            содержащими тысячи функций. Невозможно выучить все функции, но каждый программист должен
+                            знать, где искать документацию по ним.</p>
+                    </div>
+                </div>
+
+
+            </div>
+            <div class="napoln-kurs">
+
+                <h2>Свойства и методы</h2>
+
+                <div class="napoln-kurs-hui">
+                    <div>
+                        <a href="#">40. Объекты</a>
+                        <a href="#">41. Неизменяемость</a>
+                        <a href="#">42. Методы как выражения </a>
+                        <a href="#">43. Цепочка вызовов</a>
+
+
+                    </div>
+                    <div>
+                        <p>Данные, которые мы используем в программах, могут иметь различные важные характеристики,
+                            которые называются атрибутами. В Python атрибуты являются встроенной частью языка. Кроме
+                            статических свойств, у данных могут быть методы — это функции, связанные с этими данными. В
+                            Python свойства и методы также являются выражениями, подобными переменным или вызовам
+                            функций, что позволяет комбинировать их различными способами. Эти концепции более глубоко
+                            рассматриваются в специальных курсах по объектно-ориентированному программированию на
+                            Python. В данном модуле мы сосредоточимся на основах.</p>
+                    </div>
+                </div>
+
+
+            </div>
+            <div class="napoln-kurs">
+
+                <h2>Определение функций</h2>
+
+                <div class="napoln-kurs-hui">
+                    <div>
+                        <a href="#">44. Создание (определение) функций</a>
+                        <a href="#">45. Возврат значений</a>
+                        <a href="#">46. Параметры функций </a>
+                        <a href="#">47. Необязательные параметры функций</a>
+                        <a href="#">48. Именованные аргументы</a>
+                        <a href="#">49. Аннотации типов</a>
+
+
+
+                    </div>
+                    <div>
+                        <p>Создание собственных функций значительно упрощает процесс написания и обслуживания программ.
+                            Например, умение определять функции позволяет объединять сложные операции в одну функцию,
+                            что позволяет скрыть всю сложность за одним простым вызовом. Овладев навыком создания
+                            функций, вы сделаете первый шаг к созданию действительно полезных программ. Мы поможем вам в
+                            этом. В этом модуле вы создадите свою первую функцию и научитесь давать ей понятные
+                            названия, которые будут понятны другим разработчикам.</p>
+                    </div>
+                </div>
+
+
+            </div>
+            <div class="napoln-kurs">
+
+                <h2>Логика</h2>
+
+                <div class="napoln-kurs-hui">
+                    <div>
+                        <a href="#">50. Логический тип</a>
+                        <a href="#">51. Предикаты</a>
+                        <a href="#">52. Комбинирование операций и функций </a>
+                        <a href="#">53. Логические операторы</a>
+                        <a href="#">54. Отрицание </a>
+                        <a href="#">55. Результат логических выражений</a>
+
+
+                    </div>
+                    <div>
+                        <p>Логические выражения в программировании позволяют обрабатывать вопросы, которые возникают в
+                            ходе работы программы. Например, можно проверить, аутентифицирован ли пользователь, оплачена
+                            ли подписка или является ли текущий год високосным. В этом модуле мы изучаем
+                            функции-предикаты, которые задают вопрос и возвращают ответ в виде истины или лжи. Мы также
+                            практикуемся в написании подобных функций и переходим к более сложным логическим выражениям.
+                        </p>
+                    </div>
+                </div>
+
+
+            </div>
+            <div class="napoln-kurs">
+
+                <h2>Условные конструкции</h2>
+
+                <div class="napoln-kurs-hui">
+                    <div>
+                        <a href="#">56. Условная конструкция (if)</a>
+                        <a href="#">57. Условная конструкция else </a>
+                        <a href="#">58. Конструкция else + if = elif </a>
+                        <a href="#">59. Тернарный оператор</a>
+                        <a href="#">60. Оператор Match</a>
+
+
+                    </div>
+                    <div>
+                        <p>Задача функции-предиката состоит в том, чтобы получить ответ на вопрос, но часто это
+                            недостаточно, и требуется выполнить определенное действие в зависимости от этого ответа. В
+                            Python для этой цели используются конструкции if и if-else, которые позволяют программисту
+                            выбирать нужное поведение программы в зависимости от различных условий: выполнять
+                            определенные инструкции при выполнении условия и другие при его невыполнении. В этом модуле
+                            мы рассмотрим эти конструкции на практике.</p>
+                    </div>
+                </div>
+
+
+            </div>
+            <div class="napoln-kurs">
+
+                <h2>Циклы</h2>
+
+                <div class="napoln-kurs-hui">
+                    <div>
+                        <a href="#">61. Цикл While</a>
+                        <a href="#">62. Агрегация данных (Числа)</a>
+                        <a href="#">63. Агрегация данных (Строки) </a>
+                        <a href="#">64. Обход строк</a>
+                        <a href="#">65. Условия внутри тела цикла</a>
+                        <a href="#">66. Формирование строк в циклах</a>
+                        <a href="#">67. Пограничные случаи</a>
+                        <a href="#">68. Синтаксический сахар</a>
+                        <a href="#">69. Возврат из циклов</a>
+                        <a href="#">70. Цикл For</a>
+                        <a href="#">71. Цикл for и функция range </a>
+
+
+                    </div>
+                    <div>
+                        <p>Любой код может повторяться десятки, тысячи, миллионы раз. В комбинации с другими известными
+                            нам инструментами — переменными и условиями — это открывает множество возможностей по
+                            построению программ и сложных систем. Приведем простой пример. Вам нужно найти конкретную
+                            фразу в учебнике из 500 страниц. Фразу вы помните, а вот номер страницы нет. Самый простой
+                            (и долгий) способ — последовательно просматривать страницы до тех пор, пока не найдете
+                            нужную. Для выполнения таких повторяющихся действий и нужны циклы.</p>
+                    </div>
+                </div>
+
+
+            </div>
+
+
+
+
+
+
+
+
+
+            <div class="glav-kyrss">
+
+                <h2>Курсы</h2>
+
+                <div class="gav-kyrssi">
+
+                    <div class="gav-kyrssi-block">
+                        <a href="#">
+                            <div style="background-image: url(./img/ИконкиЯП/html.png);">
+                            </div>
+                            <h3>HTML</h3>
+                            <div>
+                                <div>
+                                    <p>
+                                        <img src="./img/часы.png" alt="">
+                                        10 часов
+
+                                    </p>
+                                </div>
+                                <div>
+                                    <p>
+                                        <img src="./img/люди.png" alt="">
+                                        5230
+                                    </p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="gav-kyrssi-block">
+                        <a href="#">
+                            <div style="background-image: url(./img/ИконкиЯП/css.png);">
+                            </div>
+                            <h3>CSS</h3>
+                            <div>
+                                <div>
+                                    <p>
+                                        <img src="./img/часы.png" alt="">
+                                        9 часов
+
+                                    </p>
+                                </div>
+                                <div>
+                                    <p>
+                                        <img src="./img/люди.png" alt="">
+                                        4127
+                                    </p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="gav-kyrssi-block">
+                        <a href="#">
+                            <div style="background-image: url(./img/ИконкиЯП/js.png);">
+                            </div>
+                            <h3>JavaScript</h3>
+                            <div>
+                                <div>
+                                    <p>
+                                        <img src="./img/часы.png" alt="">
+                                        18 часов
+
+                                    </p>
+                                </div>
+                                <div>
+                                    <p>
+                                        <img src="./img/люди.png" alt="">
+                                        10309
+                                    </p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="gav-kyrssi-block">
+                        <a href="#">
+                            <div style="background-image: url(./img/ИконкиЯП/php.png);">
+                            </div>
+                            <h3>PhP</h3>
+                            <div>
+                                <div>
+                                    <p>
+                                        <img src="./img/часы.png" alt="">
+                                        18 часов
+
+                                    </p>
+                                </div>
+                                <div>
+                                    <p>
+                                        <img src="./img/люди.png" alt="">
+                                        8320
+                                    </p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="gav-kyrssi-block">
+                        <a href="#">
+                            <div style="background-image: url(./img/ИконкиЯП/6132222.png);">
+                            </div>
+                            <h3>C++</h3>
+                            <div>
+                                <div>
+                                    <p>
+                                        <img src="./img/часы.png" alt="">
+                                        9 часов
+
+                                    </p>
+                                </div>
+                                <div>
+                                    <p>
+                                        <img src="./img/люди.png" alt="">
+                                        8239
+                                    </p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="gav-kyrssi-block">
+                        <a href="#">
+                            <div style="background-image: url(./img/ИконкиЯП/fapyt.png);">
+                            </div>
+                            <h3>Python</h3>
+                            <div>
+                                <div>
+                                    <p>
+                                        <img src="./img/часы.png" alt="">
+                                        18 часов
+
+                                    </p>
+                                </div>
+                                <div>
+                                    <p>
+                                        <img src="./img/люди.png" alt="">
+                                        23230
+                                    </p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="gav-kyrssi-block">
+                        <a href="./java.html">
+                            <div style="background-image: url(./img/ИконкиЯП/Java.png);">
+                            </div>
+                            <h3>Java</h3>
+                            <div>
+                                <div>
+                                    <p>
+                                        <img src="./img/часы.png" alt="">
+                                        10 часов
+
+                                    </p>
+                                </div>
+                                <div>
+                                    <p>
+                                        <img src="./img/люди.png" alt="">
+                                        5230
+                                    </p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="gav-kyrssi-block">
+                        <a href="#">
+                            <div style="background-image: url(./img/ИконкиЯП/ruby.svg);">
+                            </div>
+                            <h3>Ruby</h3>
+                            <div>
+                                <div>
+                                    <p>
+                                        <img src="./img/часы.png" alt="">
+                                        8 часов
+
+                                    </p>
+                                </div>
+                                <div>
+                                    <p>
+                                        <img src="./img/люди.png" alt="">
+                                        9230
+                                    </p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+
+
+                </div>
+
+            </div>
+
+
+
+
+        </div>
+
+
+
+    </main>
+
+    <footer class="footer">
+        <div class="footer-content content">
+            <div class="footer-column">
+                <h3>О нас</h3>
+                <p>Наша компания стремится предоставить вам лучший опыт в области обучения и развития.</p>
+            </div>
+            <div class="footer-column">
+                <h3>Контакты</h3>
+                <p>Телефон: +375 33 910-08-92</p>
+                <p>Email: codeforofficia@yandex.ru</p>
+                <p>Адрес: г. Барановичи, ул. Пирогова, д. 7</p>
+            </div>
+            <div class="footer-column">
+                <h3>Подписаться</h3>
+                <form class="subscribe-form">
+                    <input type="email" placeholder="Введите ваш email" required>
+                    <button type="submit">Подписаться</button>
+                </form>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Все права защищены. CodeFor.</p>
+        </div>
+    </footer>
+    <script>
+        // Массив с заменяемыми словами
+        var words = ['HTML', 'CSS', 'JavaScript', 'C++', 'Python', 'Java', 'Ruby', 'PHP'];
+        var index = 0;
+        var span = document.getElementById('word');
+
+        // Функция для замены слова
+        function changeWord() {
+            span.classList.add('erase');
+            setTimeout(() => {
+                span.textContent = words[index];
+                span.classList.remove('erase');
+                span.classList.add('type');
+                index = (index + 1) % words.length;
+                setTimeout(() => {
+                    span.classList.remove('type');
+                }, 500);
+            }, 500);
+        }
+
+        // Запускаем функцию каждые 4 секунды
+        setInterval(changeWord, 2500);
+
+        function toggleMenu() {
+            var menu = document.getElementById('mobilMenu');
+            menu.classList.toggle('active');
+        }
+
+
+    </script>
+
+    <script>
+        const accordionHeaders = document.querySelectorAll('.accordion-header');
+
+        accordionHeaders.forEach(header => {
+            header.addEventListener('click', () => {
+                const accordionItem = header.parentNode;
+                const isActive = accordionItem.classList.contains('active');
+
+                // Закрыть все активные панели
+                document.querySelectorAll('.accordion-item').forEach(item => {
+                    item.classList.remove('active');
+                });
+
+                // Разворачиваем текущую панель, если она не активна
+                if (!isActive) {
+                    accordionItem.classList.add('active');
+                }
+            });
+        });
+    </script>
+</body>
+
+</html>

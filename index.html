@@ -1,0 +1,711 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CodeFor </title>
+    <meta name="description"
+        content="Изучайте Python и другие языки программирования онлайн с CodeFor. Получите доступ к бесплатным курсам, включая HTML, CSS, JavaScript, Python и другие.">
+    <link rel="website icon" type="png" href="./img/Fauget/1.png">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+    <header>
+
+        <div class="content">
+            <div class="content-logo-head">
+
+                <div class="header-logo">
+
+                    <a href="/">
+                        <img src="./img/logo.svg" alt="">
+                    </a>
+
+                </div>
+
+
+                <div class="header-meny">
+
+
+                    <nav class="menu">
+                        <ul>
+                            <li><a href="/">Главная</a></li> <!-- Основной пункт "Меню1" -->
+                            <li><a href="#">Курсы</a> <!-- Пункт "Меню2" -->
+                                <!-- Подменю "Меню2" -->
+                                <ul class="submenu">
+                                    <a href="./html.html" class="ZP">
+                                        <img src="./img/ИконкиЯП/html.png" alt="" class="html">
+                                        <p>HTML</p>
+
+                                    </a>
+                                    <a href="./css.html" class="ZP">
+                                        <img src="./img/ИконкиЯП/css.png" alt="">
+                                        <p>CSS</p>
+
+                                    </a>
+
+                                    <a href="./js.html" class="ZP">
+                                        <img src="./img/ИконкиЯП/js.png" alt="">
+                                        <p>JavaScript</p>
+
+
+                                    </a>
+                                    <a href="./PHP.html" class="ZP">
+                                        <img src="./img/ИконкиЯП/php.png" alt="">
+                                        <p>PHP</p>
+
+
+                                    </a>
+                                    <a href="./c++.html" class="ZP">
+                                        <img src="./img/ИконкиЯП/c++.png" alt="">
+                                        <p>C++</p>
+
+
+                                    </a>
+                                    <a href="./python.html" class="ZP">
+                                        <img src="./img/ИконкиЯП/питон.png" alt="">
+                                        <p>Python</p>
+
+
+                                    </a>
+                                    <a href="./java.html" class="ZP">
+                                        <img src="./img/ИконкиЯП/Java.png" alt="">
+
+                                        <p>Java</p>
+
+                                    </a>
+
+                                    <a href="./Ruby.html" class="ZP">
+                                        <img src="./img/ИконкиЯП/ruby.svg" alt="">
+
+                                        <p>Ruby</p>
+
+                                    </a>
+
+
+                                </ul>
+
+                            </li>
+
+                            <li><a href="#">О CodeFor</a>
+
+                                <ul class="submenu">
+                                    <a href="#" class="ZP">
+
+                                        <p>О платформе</p>
+
+                                    </a>
+                                    <a href="#" class="ZP">
+
+                                        <p>Цель проекта</p>
+
+                                    </a>
+
+                                    <a href="#" class="ZP">
+
+                                        <p>Разработчики</p>
+
+
+                                    </a>
+                                    <a href="./oplatforme.html" class="ZP">
+
+                                        <p> История CodeFor</p>
+
+
+                                    </a>
+                                    <a href="#" class="ZP">
+
+                                        <p>Следующие обновления</p>
+
+
+                                    </a>
+                                    <a href="./novosti.html" class="ZP">
+
+                                        <p>Новости</p>
+
+
+                                    </a>
+
+
+                                </ul>
+                            </li>
+
+                            <li>
+                                <a href="https://code.visualstudio.com/download" target="_blank"> Скачать Visual
+                                    Studio</a>
+
+                            </li>
+
+                        </ul>
+                    </nav>
+
+
+                    <div class="mobil-menu-container">
+                        <div class="mobil-menu-icon" onclick="toggleMenu()">
+                            <div>
+                                <img src="./img/menu.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+
+                    <ul class="mobil-menu" id="mobilMenu">
+
+                        <span class="close-icon" onclick="toggleMenu()">
+                            <img src="./img/close (1).png" alt="">
+                        </span>
+                        <div class="mobil-menu-content">
+                            <img src="./img/logo.svg" alt="">
+                            <div class="mobil-menu-content-line"></div>
+                            <div class="accordion">
+
+                                <div class="accordion-item">
+                                    <div class="accordion-header">Курсы
+                                        <img src="./img/arrow-down-sign-to-navigate.png" alt="">
+                                    </div>
+                                    <div class="accordion-content">
+                                        <a href="./html.html">
+                                            <img src="./img/ИконкиЯП/html.png" alt="">
+                                            <p>HTML</p>
+                                        </a>
+
+                                        <a href="./css.html">
+                                            <img src="./img/ИконкиЯП/css.png" alt="">
+                                            <p>CSS</p>
+                                        </a>
+
+                                        <a href="./js.html">
+                                            <img src="./img/ИконкиЯП/js.png" alt="">
+                                            <p>JavaScript</p>
+                                        </a>
+
+
+                                        <a href="./PHP.html">
+                                            <img src="./img/ИконкиЯП/php.png" alt="">
+                                            <p>PHP</p>
+                                        </a>
+
+                                        <a href="./c++.html">
+                                            <img src="./img/ИконкиЯП/c++.png" alt="">
+                                            <p>C++</p>
+                                        </a>
+
+                                        <a href="./python.html">
+                                            <img src="./img/ИконкиЯП/питон.png" alt="">
+                                            <p>Python</p>
+                                        </a>
+
+                                        <a href="./java.html">
+                                            <img src="./img/ИконкиЯП/Java.png" alt="">
+                                            <p>Java</p>
+                                        </a>
+
+                                        <a href="./Ruby.html">
+                                            <img src="./img/ИконкиЯП/ruby.svg" alt="">
+                                            <p>Ruby</p>
+                                        </a>
+
+
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <div class="accordion-header">O CodeFor
+                                        <img src="./img/arrow-down-sign-to-navigate.png" alt="">
+                                    </div>
+                                    <div class="accordion-content">
+                                        <a href="#">
+
+                                            <p>О платформе</p>
+                                        </a>
+                                        <a href="#">
+
+                                            <p>Цель проекта</p>
+                                        </a>
+                                        <a href="#">
+
+                                            <p>Разработчикам</p>
+                                        </a>
+                                        <a href="#">
+
+                                            <p>История CodeFor</p>
+                                        </a>
+                                        <a href="#">
+
+                                            <p>Следующие обновления</p>
+                                        </a>
+                                        <a href="#">
+
+                                            <p>Новости</p>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </ul>
+
+
+
+                </div>
+                <div class="header-regestration">
+                    <a href="#">Поиск</a>
+                    <a href="./vhod.html">Вход</a>
+
+                    <a href="./regestration.html">Регистрация</a>
+
+                </div>
+
+
+
+
+            </div>
+        </div>
+
+    </header>
+
+    <main>
+
+        <div class="content">
+            <div class="glav-ramka">
+                <div class="glav-ramka-left">
+
+                    <p>Бесплатные курсы программирования</p>
+                    <h1>Изучи <span id="word">Python</span></h1>
+                    <p>Самый быстрый способ попробовать программирование прямо в
+                        браузере. Бесплатные курсы с тренажером. Практика после каждого
+                        урока.</p>
+                    <a href="./kyrsi.html" class="bottome">Попробовать</a>
+
+                </div>
+                <div class="glav-ramka-reaght">
+                    <img src="./img/code-basics-coding-ru-656fd568b9a35ff40391739b52842ba90093158053168d3269fe2cd6600826c6.png.png"
+                        alt="">
+                </div>
+            </div>
+
+            <div class="glav-kyrss">
+
+                <h2>Курсы</h2>
+
+                <div class="gav-kyrssi">
+
+                    <div class="gav-kyrssi-block">
+                        <a href="./html.html">
+                            <div style="background-image: url(./img/ИконкиЯП/html.png);">
+                            </div>
+                            <h3>HTML</h3>
+                            <div>
+                                <div>
+                                    <p>
+                                        <img src="./img/часы.png" alt="">
+                                        10 часов
+
+                                    </p>
+                                </div>
+                                <div>
+                                    <p>
+                                        <img src="./img/люди.png" alt="">
+                                        5230
+                                    </p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="gav-kyrssi-block">
+                        <a href="./css.html">
+                            <div style="background-image: url(./img/ИконкиЯП/css.png);">
+                            </div>
+                            <h3>CSS</h3>
+                            <div>
+                                <div>
+                                    <p>
+                                        <img src="./img/часы.png" alt="">
+                                        9 часов
+
+                                    </p>
+                                </div>
+                                <div>
+                                    <p>
+                                        <img src="./img/люди.png" alt="">
+                                        4127
+                                    </p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="gav-kyrssi-block">
+                        <a href="./js.html">
+                            <div style="background-image: url(./img/ИконкиЯП/js.png);">
+                            </div>
+                            <h3>JavaScript</h3>
+                            <div>
+                                <div>
+                                    <p>
+                                        <img src="./img/часы.png" alt="">
+                                        18 часов
+
+                                    </p>
+                                </div>
+                                <div>
+                                    <p>
+                                        <img src="./img/люди.png" alt="">
+                                        10309
+                                    </p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="gav-kyrssi-block">
+                        <a href="./PHP.html">
+                            <div style="background-image: url(./img/ИконкиЯП/php.png);">
+                            </div>
+                            <h3>PhP</h3>
+                            <div>
+                                <div>
+                                    <p>
+                                        <img src="./img/часы.png" alt="">
+                                        18 часов
+
+                                    </p>
+                                </div>
+                                <div>
+                                    <p>
+                                        <img src="./img/люди.png" alt="">
+                                        8320
+                                    </p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="gav-kyrssi-block">
+                        <a href="./c++.html">
+                            <div style="background-image: url(./img/ИконкиЯП/6132222.png);">
+                            </div>
+                            <h3>C++</h3>
+                            <div>
+                                <div>
+                                    <p>
+                                        <img src="./img/часы.png" alt="">
+                                        9 часов
+
+                                    </p>
+                                </div>
+                                <div>
+                                    <p>
+                                        <img src="./img/люди.png" alt="">
+                                        8239
+                                    </p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="gav-kyrssi-block">
+                        <a href="./python.html">
+                            <div style="background-image: url(./img/ИконкиЯП/fapyt.png);">
+                            </div>
+                            <h3>Python</h3>
+                            <div>
+                                <div>
+                                    <p>
+                                        <img src="./img/часы.png" alt="">
+                                        18 часов
+
+                                    </p>
+                                </div>
+                                <div>
+                                    <p>
+                                        <img src="./img/люди.png" alt="">
+                                        23230
+                                    </p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="gav-kyrssi-block">
+                        <a href="./java.html">
+                            <div style="background-image: url(./img/ИконкиЯП/Java.png);">
+                            </div>
+                            <h3>Java</h3>
+                            <div>
+                                <div>
+                                    <p>
+                                        <img src="./img/часы.png" alt="">
+                                        10 часов
+
+                                    </p>
+                                </div>
+                                <div>
+                                    <p>
+                                        <img src="./img/люди.png" alt="">
+                                        5230
+                                    </p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="gav-kyrssi-block">
+                        <a href="./Ruby.html">
+                            <div style="background-image: url(./img/ИконкиЯП/ruby.svg);">
+                            </div>
+                            <h3>Ruby</h3>
+                            <div>
+                                <div>
+                                    <p>
+                                        <img src="./img/часы.png" alt="">
+                                        8 часов
+
+                                    </p>
+                                </div>
+                                <div>
+                                    <p>
+                                        <img src="./img/люди.png" alt="">
+                                        9230
+                                    </p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+
+
+                </div>
+
+            </div>
+            <div class="o-nas">
+                <h2>"КАК РАНЬШЕ" - БОЛЬШЕ НЕ РАБОТАЕТ</h2>
+                <p>Легкое изучение и доступная практика</p>
+            </div>
+
+            <div class="o-nas-content">
+                <div class="o-nas-2">
+                    <img src="./img/1.svg" alt="">
+                    <h3>Иновационный подход</h3>
+                    <p>Выбрав нашу веб-платформу, студенты получают доступ к современным методам обучения и
+                        инновационным технологиям, которые помогут им достичь успеха в области информационных
+                        технологий.</p>
+                </div>
+
+                <div class="o-nas-2">
+                    <img src="./img/2.svg" alt="">
+                    <h3>Максимально простой интерфейс</h3>
+                    <p>Пользователи легко перемещаются по платформе благодаря простой навигации и интерфейсу, что
+                        сокращает время поиска функций и снижает вероятность ошибок, делая работу с ней удобной и
+                        эффективной.</p>
+                </div>
+
+                <div class="o-nas-2">
+                    <img src="./img/mmm/3.svg" alt="">
+                    <h3>Самые востребованные курсы</h3>
+                    <p>Собранные курсы на нашей платформе являются самыми востребованными и с последующими обновлениями
+                        будет их будет становиться еще больше!</p>
+                </div>
+            </div>
+
+            <div class="novosti">
+                <div class="novosti-content">
+                    <div class="novosti-text">
+                        <h2>Новости и обновления</h2>
+
+                    </div>
+                    <div class="novosti-button">
+                        <p>Следите за новостями и обновлениями CodeFor, каждое новое обновление - это новый язык
+                            программирования или новый фреймворк</p>
+                    </div>
+                </div>
+
+                <div class="novo-blok">
+                    <div class="blok-2">
+                        <img src="./img/Fauget/3.png" alt="">
+                        <h3>Предложи CodeFor улучшение</h3>
+                        <p>CodeFor находится в бета тестировании и именно - ТЫ! можешь предложить иновационное изменение
+                            web платформы</p>
+                        <p class="date">11.10.2024</p>
+                    </div>
+
+                    <div class="blok-2">
+                        <img src="./img/Fauget/2.png" alt="">
+                        <h3>Когда новое обновление CodeFor? </h3>
+                        <p> CodeFor запускает новое обновление 25.11.2024 в 12:00 в нём будет интегрирован знаменитый
+                            чат GPT и будет доступен бесплатный курс по работа с ИИ</p>
+                        <p class="date">09.10.2024</p>
+                    </div>
+
+                    <div class="blok-2">
+                        <img src="./img/Fauget/microsoft_visual_studio_code_alt_macos_bigsur_icon_189956.png" alt="">
+                        <h3> CodeFor рекомендует использовате редактор кода Visual Studio Code</h3>
+                        <p>Visual Studio Code на сегоднешний день является самым лучшим редактором кода, в нем вы можете
+                            работать с любыми язвками программирования, скачать его можно в шапки сайта на любое
+                            устройство </p>
+                        <p class="date">11.08.2024</p>
+                    </div>
+
+
+                </div>
+
+
+            </div>
+
+            <div class="komanda">
+                <div class="komanda-h3">
+                    <h2>КОМАНДА</h2>
+                    <p> О НАШЕЙ КОМАНДЕ</p>
+                </div>
+
+                <div class="tm-block">
+                    <div class="team-member">
+                        <img src="./img/Fauget/1.png" alt="Фото сотрудника">
+                        <h3>Максим Парипа</h3>
+                        <p>Фулстек-разработчик (fullstack developer) — это специалист, который разрабатывает для сайтов
+                            как
+                            серверную (бэкенд), так и клиентскую часть (фронтенд)</p>
+                    </div>
+
+                    <div class="team-member">
+                        <img src="./img/Fauget/1.png" alt="Фото сотрудника">
+                        <h3>Имя сотрудника</h3>
+                        <p>Фулстек-разработчик (fullstack developer) — это специалист, который разрабатывает для сайтов
+                            как
+                            серверную (бэкенд), так и клиентскую часть (фронтенд)</p>
+                    </div>
+
+                    <div class="team-member">
+                        <img src="./img/Fauget/1.png" alt="Фото сотрудника">
+                        <h3>Имя сотрудника</h3>
+                        <p>Фулстек-разработчик (fullstack developer) — это специалист, который разрабатывает для сайтов
+                            как
+                            серверную (бэкенд), так и клиентскую часть (фронтенд)</p>
+                    </div>
+
+                    <div class="team-member">
+                        <img src="./img/Fauget/1.png" alt="Фото сотрудника">
+                        <h3>Имя сотрудника</h3>
+                        <p>Фулстек-разработчик (fullstack developer) — это специалист, который разрабатывает для сайтов
+                            как
+                            серверную (бэкенд), так и клиентскую часть (фронтенд)</p>
+                    </div>
+                </div>
+
+            </div>
+            <div class="regestration">
+                <div class="registration-container">
+                    <div class="left-section">
+                        <h1 class="registration-heading">Зарегистрируйтесь и начните учиться прямо сейчас</h1>
+                    </div>
+                    <div class="right-section">
+                        <form action="#" class="registration-form">
+                            <h2>Регистрация</h2>
+                            <input type="text" placeholder="Имя" required>
+                            <input type="email" placeholder="Email" required>
+                            <input type="password" placeholder="Пароль" required>
+                            <button type="submit">Создать аккаунт</button>
+                            <div class="social-media-buttons">
+                                <p>С помощью социальных сетей:</p>
+                                <div class="social-media-buttons-1111">
+                                    <a href="#" class="social-button github">GitHub </a>
+                                    <a href="#" class="social-button google">Google </a>
+                                    <a href="#" class="social-button email">Email </a>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+
+
+
+        </div>
+
+
+
+    </main>
+
+    <footer class="footer">
+        <div class="footer-content content">
+            <div class="footer-column">
+                <h3>О нас</h3>
+                <p>Наша компания стремится предоставить вам лучший опыт в области обучения и развития.</p>
+            </div>
+            <div class="footer-column">
+                <h3>Контакты</h3>
+                <p>Телефон: +375 33 910-08-92</p>
+                <p>Email: codeforofficia@yandex.ru</p>
+                <p>Адрес: г. Барановичи, ул. Пирогова, д. 7</p>
+            </div>
+            <div class="footer-column">
+                <h3>Подписаться</h3>
+                <form class="subscribe-form">
+                    <input type="email" placeholder="Введите ваш email" required>
+                    <button type="submit">Подписаться</button>
+                </form>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Все права защищены. CodeFor.</p>
+        </div>
+    </footer>
+    <script>
+        // Массив с заменяемыми словами
+        var words = ['HTML', 'CSS', 'JavaScript', 'C++', 'Python', 'Java', 'Ruby', 'PHP'];
+        var index = 0;
+        var span = document.getElementById('word');
+
+        // Функция для замены слова
+        function changeWord() {
+            span.classList.add('erase');
+            setTimeout(() => {
+                span.textContent = words[index];
+                span.classList.remove('erase');
+                span.classList.add('type');
+                index = (index + 1) % words.length;
+                setTimeout(() => {
+                    span.classList.remove('type');
+                }, 500);
+            }, 500);
+        }
+
+        // Запускаем функцию каждые 4 секунды
+        setInterval(changeWord, 2500);
+
+        function toggleMenu() {
+            var menu = document.getElementById('mobilMenu');
+            menu.classList.toggle('active');
+        }
+
+
+    </script>
+
+    <script>
+        const accordionHeaders = document.querySelectorAll('.accordion-header');
+
+        accordionHeaders.forEach(header => {
+            header.addEventListener('click', () => {
+                const accordionItem = header.parentNode;
+                const isActive = accordionItem.classList.contains('active');
+
+                // Закрыть все активные панели
+                document.querySelectorAll('.accordion-item').forEach(item => {
+                    item.classList.remove('active');
+                });
+
+                // Разворачиваем текущую панель, если она не активна
+                if (!isActive) {
+                    accordionItem.classList.add('active');
+                }
+            });
+        });
+    </script>
+</body>
+
+</html>
