@@ -16,7 +16,7 @@
 Стек технологий:
 Проект использует следующие технологии:
 
-Фронтенд: React, HTML, Redux, TypeScript
+Фронтенд: React, HTML
 Бэкенд: Node.js, Express, MongoDB
 Админка: PHP, Laravel
 Инфраструктура: Docker, Kubernetes
